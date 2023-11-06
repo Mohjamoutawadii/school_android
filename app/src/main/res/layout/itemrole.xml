@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="#B9CFD9">
+    <ImageView
+        android:id="@+id/studentImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:background="#B9CFD9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/school5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Nom:"
+            android:textColor="@color/purple_500"
+
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"
+            android:textColor="@color/purple_500"
+
+            android:padding="2dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ID: 12345"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

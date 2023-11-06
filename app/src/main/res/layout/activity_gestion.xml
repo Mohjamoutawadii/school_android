@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9CFD9">
+
+
+    <Button
+        android:id="@+id/btnGestionEtudiants"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="220dp"
+        android:text="Gestion des étudiants"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_manage" />
+
+    <Button
+        android:id="@+id/btnGestionFilieres"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="218dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnGestionEtudiants"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60dp"
+        android:rotationX="-3"
+        android:text="Gestion des filières"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_manage" />
+
+    <Button
+        android:id="@+id/btnGestionRoles"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="218dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnGestionFilieres"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60dp"
+        android:text="Gestion des rôles"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_manage" />
+
+    <Button
+        android:id="@+id/btnEtudiantsParFiliere"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="218dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnGestionRoles"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        android:text="Étudiants par filière"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_manage" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="#B9CFD9"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/school5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="181dp"
+        android:layout_height="199dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp"
+        android:capitalize="characters"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Bienvenue sur votre application de gestion"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#A30E0E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
